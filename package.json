@@ -1,0 +1,30 @@
+{
+  "name": "npm-exercises",
+  "version": "1.0.0",
+  "description": "repo for my stuff",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwin-gonzales-n/npm-exercises.git"
+  },
+  "author": "edwin gonzales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwin-gonzales-n/npm-exercises/issues"
+  },
+  "homepage": "https://github.com/edwin-gonzales-n/npm-exercises#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "jquery": "^3.3.1",
+    "webpack": "^3.11.0"
+  },
+  "scripts": {
+    "build:watch": "webpack --watch",
+    "build:production": "webpack -p"
+  }
+}
